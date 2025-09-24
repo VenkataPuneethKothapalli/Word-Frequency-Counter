@@ -1,4 +1,5 @@
-Word Frequency Counter
+#Word Frequency Counter
+
 📌 Project Description
 
 The Word Frequency Counter is a Python console application that reads a text file, analyzes its contents, and counts how many times each unique word appears.
