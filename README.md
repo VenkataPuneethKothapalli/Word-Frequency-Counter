@@ -1,43 +1,59 @@
 Word Frequency Counter
-
 📌 Project Description
 
-The Word Frequency Counter is a Python console application that reads a text file, analyzes its contents, and counts how many times each unique word appears.
-The program handles file input/output, cleans text (punctuation and case), sorts results, and displays summary statistics in a user-friendly format.
+The Word Frequency Counter is a Python console application that reads a text file, analyzes its contents, and displays how many times each unique word appears.
+
+The program:
+
+Handles file input and output.
+
+Cleans text by removing punctuation and converting to lowercase.
+
+Counts and sorts word frequencies.
+
+Displays summary statistics in a clear format.
 
 🚀 Features
 
-Prompts the user to enter the path to a text file.
+File Handling
 
-If the file is not found or cannot be opened, shows an error message and allows retry.
+Prompts the user to enter a text file path.
 
-Reads and cleans the text:
+Shows an error message if the file is missing or cannot be opened.
+
+Text Cleaning
 
 Converts all text to lowercase.
 
 Removes punctuation and special characters.
 
-Splits words by whitespace.
+Splits text into words by whitespace.
+
+Word Counting
 
 Counts word frequencies using a dictionary.
 
-Displays:
+Treats words differing only by case as the same word.
 
-Total number of words
+Results Display
 
-Total number of unique words
+Total number of words.
 
-The top N most frequent words (default: 10)
+Total number of unique words.
 
-Sorts words by frequency (highest to lowest).
+The top N most common words (default = 10).
 
-Handles invalid inputs gracefully (e.g., empty files, negative N).
+Words are sorted in descending order of frequency.
 
-Optional Add-Ons Implemented:
+Error Handling
+
+Manages invalid inputs (e.g., empty files, invalid N values).
+
+Optional Add-Ons Implemented
 
 Filters out short words (length < 3).
 
-Ignores common stop words (e.g., "the", "and", "is", "in").
+Excludes common stop words (e.g., the, and, is, in).
 
 Lets the user specify how many top words to display.
 
@@ -45,15 +61,15 @@ Lets the user specify how many top words to display.
 
 Python 3.x
 
-No external libraries required (only built-in modules: os, string).
+No external libraries required (uses only built-in modules: os, string).
 
 📂 Installation & Setup
 
-Clone or download the project files.
+Download or clone this repository.
 
-Make sure Python 3 is installed on your system.
+Ensure Python 3 is installed on your system.
 
-Open a terminal or command prompt in the project folder.
+Open a terminal/command prompt in the project folder.
 
 ▶️ How to Run
 
@@ -62,24 +78,20 @@ Run the script from the terminal:
 python word_counter.py
 
 
-When prompted:
+Steps:
 
 Enter the path to a .txt file.
 
-Example: sample.txt
+Enter the number of top words to display (or press Enter for default = 10).
 
-Enter how many top words you want to display.
-
-Press Enter to use the default (10).
-
-✅ Example Run
+✅ Example Usage
 
 Input file (sample.txt):
 
 Python is great. Python is powerful. Python is easy to learn.
 
 
-Output:
+Program Output:
 
 --- WORD FREQUENCY COUNTER ---
 Enter the path to a text file (or 'exit' to quit): sample.txt
@@ -99,8 +111,6 @@ Top 5 most common words:
 
 word_counter.py → Python source code
 
-stop_words (hardcoded in code)
-
 sample.txt → Example input file
 
-README.md (this file)
+README.md → Project documentation
