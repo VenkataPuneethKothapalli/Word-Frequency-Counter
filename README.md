@@ -58,3 +58,24 @@ The program:
 Run the script from the terminal:
 ```bash
 python word_counter.py
+
+--- WORD FREQUENCY COUNTER ---
+Enter the path to a text file (or 'exit' to quit): sample.txt
+How many top words to display? (Press Enter for default 10): 5
+
+Total number of words: 6
+Total number of unique words: 3
+
+Top 5 most common words:
+1. python: 3
+2. great: 1
+3. powerful: 1
+4. easy: 1
+5. learn: 1
+
+---
+
+This will render **perfectly on GitHub** with syntax highlighting for the command and a clean code block for the output.  
+
+Do you want me to now **rebuild the full README.md** with this update included?
+
