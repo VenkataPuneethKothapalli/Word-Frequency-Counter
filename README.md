@@ -56,8 +56,12 @@ The program:
 
 ## ▶️ How to Run
 Run the script from the terminal:
-```bash
+```
 python word_counter.py
+
+```
+##Example output
+```
 
 --- WORD FREQUENCY COUNTER ---
 Enter the path to a text file (or 'exit' to quit): sample.txt
@@ -72,6 +76,8 @@ Top 5 most common words:
 3. powerful: 1
 4. easy: 1
 5. learn: 1
+
+```
 
 ---
 
