@@ -60,7 +60,7 @@ Run the script from the terminal:
 python word_counter.py
 
 ```
-##Example output
+Example output:
 ```
 
 --- WORD FREQUENCY COUNTER ---
